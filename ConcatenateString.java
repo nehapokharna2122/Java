@@ -1,0 +1,18 @@
+package java_assignment;
+
+public class ConcatenateString 
+{
+public static void main(String[] args) 
+    {
+        
+        String str1 = "Hello";
+        String str2 = " World";
+
+        String result = str1.concat(str2);
+
+        System.out.println("First String : " + str1);
+        System.out.println("Second String: " + str2);
+        System.out.println("Concatenated String: " + result);
+    }
+}
+
